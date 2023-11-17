@@ -15,6 +15,7 @@ run-api-node:
 	cd api-node && \
 		DATABASE_URL=${DATABASE_URL} \
 		npm run dev
+		
 
 .PHONY: run-api-golang
 run-api-golang:
